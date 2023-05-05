@@ -9,8 +9,8 @@ trigger_pin = Pin(13, Pin.OUT)
 echo_pin = Pin(12, Pin.IN)
 
 # Set up WiFi network
-SSID = "Trojan"
-PASSWORD = "my_Trojan"
+SSID = "Your Wifi Name"
+PASSWORD = "Your Password"
 sta_if = network.WLAN(network.STA_IF)
 sta_if.active(True)
 sta_if.connect(SSID, PASSWORD)
